@@ -31,8 +31,6 @@ if archivo.lower().endswith((".jpg", ".png", ".jpeg")):
 - **`.lower()`**: Convierte el nombre a minúsculas para evitar errores (ej: `.JPG`).
 - **`.endswith()`**: Filtra por extensiones de imagen.
 
-## 📸 Captura (Opcional)
-![Ejemplo](assets/captura.png)  # Si añades una imagen en /assets
 
 ##  Modularización del Código
 
