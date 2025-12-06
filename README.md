@@ -7,7 +7,7 @@
 
 Clasifica imágenes `.jpg`, `.png` y `.jpeg` en una subcarpeta llamada `Ordenadas`.
 
-##  Cómo Usar:
+##  Cómo Usar: -m
 1. **Editar la ruta** en `organizar_fotos.py`:
    ```python
    ruta_fotos = Path("C:/Users/A/serpientes")  # ← Cambiar por tu ruta
