@@ -1,4 +1,4 @@
-# 🐍 Organizador de Fotos Automático por Angie (usado en mi laboratorio para organizar fotos de serpientes)
+# 🐍 Organizador de Fotos Automático  prueba (usado en mi laboratorio para organizar fotos de serpientes)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
