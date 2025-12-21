@@ -50,7 +50,8 @@ from organizar_fotos import organizar_imagenes
 resultado = organizar_imagenes("ruta/a/imagenes")
 print(resultado)
 
-pablo rom te amo 
+pablo te amo
+este script funciona para fotos del lab
 
 ## 📄 Licencia
 MIT © [noomesk](https://github.com/angie-plazas)"# Prueba" 
