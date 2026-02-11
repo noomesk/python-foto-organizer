@@ -2,17 +2,17 @@ import os
 import shutil
 
 # Usar ruta y revisar procesos LABFISIO (cámbiarla dependiendo de lo que vayas a organizar amigue):
-ruta_fotos = r"C:\Users\A\serpientes"  # ¡Observa la 'r' al inicio y sin doble \\ eso ayuda a que no se confunda con el \ que python lo interpreta como un escape)
+ruta_fotos = r"C:\Users\A\serpientes"  # ¡Observa la 'r' al inicio y sin doble \\ eso ayuda a que no se confunda con el \ que python lo interpreta como un escape) OPTIMIZARLO 
 
 # Crearr una carptea"Ordenadas" si no existe
 os.makedirs(os.path.join(ruta_fotos, "Ordenadas"), exist_ok=True)
 
-for archivo in os.listdir(ruta_fotos):
+for archivo in os.listdir(ruta_photos):
     if archivo.lower().endswith((".jpg", ".png")):
         try:
             shutil.move(
-                os.path.join(ruta_fotos, archivo),
-                os.path.join(ruta_fotos, "Ordenadas", archivo)
+                os.path.join(ruta_photos, archivo),
+                os.path.join(ruta_photos, "Ordenadas", archivo)
             )
             print(f"✅ Moviido: {archivo}")
         except Exception as e:
