@@ -18,4 +18,4 @@ for archivo in os.listdir(ruta_photos):
         except Exception as e:
             print(f"❌ Error con {archivo}: {str(e)}")
 
-print("¡Proceso completado! Revisa la carpeta 'Ordenadas'.")
+print("¡Proceso completo Revisa la carpeta 'Ordenadas'.")
