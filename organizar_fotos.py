@@ -16,6 +16,6 @@ for archivo in os.listdir(ruta_photos):
             )
             print(f"✅ Moviido: {archivo}")
         except Exception as e:
-            print(f"❌ Error con {archivo}: {str(e)}")
+            print(f"❌ No se puede org con {archivo}: {str(e)}")
 
 print("¡Proceso completo Revisa la carpeta 'Ordenadas'.")
