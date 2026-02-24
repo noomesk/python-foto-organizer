@@ -1,6 +1,6 @@
 import os
 import shutil
-from pathlib import Path  # ¡Path es multiplataforma, funcionará en win mac linux!
+from pathlib import Path  # ¡Path es multiplataforma, funcionará en win macOS linux!
 
 # Configuración
 ruta_fotos = Path("C:/Users/A/serpientes")  # Usando pathlib
