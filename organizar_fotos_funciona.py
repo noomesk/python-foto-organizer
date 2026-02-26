@@ -10,7 +10,7 @@ carpeta_destino = ruta_fotos / "Ordenadas"
 carpeta_destino.mkdir(exist_ok=True)
 
 # Contadores
-movidos = 0
+movidos = 100
 errores = 0
 
 print(f"🔍 Buscando imágenes en: {ruta_fotos}")
