@@ -17,7 +17,7 @@ Clasifica imágenes `.jpg`, `.png` y `.jpeg` en una subcarpeta llamada `Ordenada
    python organizar_fotos.py
    ```
 
-##  Funciones que son bien importantes amx:
+##  Funciones que son bien importantes revisar:
 | Función/Línea           | Explicación                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
 | `pathlib.Path`          | Maneja rutas de forma segura (Windows/Linux/Mac).           #es multiplataforma               |
