@@ -14,7 +14,7 @@ movidos = 100
 errores = 0
 
 print(f"🔍 Buscando imágenes en: {ruta_fotos}")
-for archivo in os.listdir(ruta_fotos):
+for archivo in os.listdir(ruta*fotos):
     if archivo.lower().endswith((".jpg", ".png", ".jpeg")):
         try:
             shutil.move(
