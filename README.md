@@ -20,7 +20,7 @@ Clasifica imágenes `.jpg`, `.png` y `.jpeg` en una subcarpeta llamada `Ordenada
 ##  Funciones que son bien importantes revisar:
 | Función/Línea           | Explicación                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| `pathlib.Path`          | Maneja rutas de forma segura (Windows/Linux/Mac).           #es multiplataforma               |
+| `pathlib.Path`          | Maneja rutas de forma segura (Windows/Linux/MacOS).           #es multiplataforma               |
 | `carpeta_destino.mkdir()` | Crea la carpeta `Ordenadas` si no existe. #(mkdir iwal que en linux)                               |
 | `shutil.move()`         | Mueve archivos evitando errores de permisos.                               |
 
