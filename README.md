@@ -5,7 +5,7 @@
 ![Organizador](https://img.shields.io/badge/🐍-organizador%20de%20fotos-yellow)
 
 
-Clasifica imágenes `.jpg`, `.png` y `.jpeg` en una subcarpeta llamada `Ordenadas`.
+Clasifica imágenes `.jpg`, `.png` y `.jpeg` en una subcarpeta llamada ruk `Ordenadas`.
 
 ##  Cómo Usar: -m
 1. **Editar la ruta** en `organizar_fotos.py`:
